@@ -276,13 +276,11 @@ input {
 }
 
 @media (max-width: 450px) and (min-width: 300px) {
-    footer {
+   footer {
         position:absolute;
     bottom: 0;
     left: 0%;
-    
     }
-
     .illustrated {
         text-align: right;
     }
@@ -297,20 +295,23 @@ input {
     }
 
     .background {
-        background-image: url('illustration.jpg');
+        background-image: url('./illustration.jpg');
         background-size: cover;
         background-position: center;
-        width: 100vw;
-        height: 100%;
+        width: 100%;
+        height: 100vh; /* Set the height to cover the entire viewport */
         position: absolute;
         top: 0;
+        left: 0;
         z-index: -1;
         filter: grayscale(0.0);
+        overflow: hidden;
     }
 
     body {
         display: block;
         overflow-y: hidden;
+
         height: auto;
         position: relative;
         width: 100%;
