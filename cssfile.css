@@ -17,7 +17,7 @@ body {
 }
 
         .background {
-            background-image: url('./illustration.jpg');
+            background-image: url('illustration.jpg');
             background-size: cover;
             background-position: center;
             width: 100vw;
@@ -154,7 +154,7 @@ input {
     }
 
     .background {
-        background-image: url('./illustration.jpg');
+        background-image: url('illustration.jpg');
         background-size: cover;
         background-position: center;
         width: 100vw;
@@ -224,7 +224,7 @@ input {
     }
 
     .background {
-        background-image: url('./illustration.jpg');
+        background-image: url('illustration.jpg');
         background-size: cover;
         background-position: center;
         width: 100vw;
@@ -261,7 +261,7 @@ input {
     }
 
     .background {
-        background-image: url('./illustration.jpg');
+        background-image: url('illustration.jpg');
         background-size: cover;
         background-position: center;
         width: 100vw;
@@ -298,7 +298,7 @@ input {
     }
 
     .background {
-        background-image: url('./illustration.jpg');
+        background-image: url('illustration.jpg');
         background-size: cover;
         background-position: center;
         width: 100vw;
