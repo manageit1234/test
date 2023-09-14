@@ -277,11 +277,10 @@ input {
 
 @media (max-width: 450px) and (min-width: 300px) {
     footer {
-        position: relative;
-        align-items: flex-start;
-        left: 21%;
-        padding: 0;
-        top: 100px;
+        position:absolute;
+    bottom: 0;
+    left: 0%;
+    
     }
 
     .illustrated {
